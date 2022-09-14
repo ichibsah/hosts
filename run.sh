@@ -7,4 +7,5 @@ docker run \
     --rm -it \
     -v "$(pwd)/hosts:/etc/hosts" \
     -v "$(pwd)/whitelist:/hosts/whitelist" \
-    ghcr.io/stevenblack/hosts:latest updateHostsFile.py
+    ghcr.io/stevenblack/hosts:latest updateHostsFile.py \
+    --auto --replace --extensions gambling porn
