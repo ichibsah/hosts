@@ -15,7 +15,11 @@ docker run \
     -v "$(pwd)/hosts:/etc/hosts" \
     -v "$(pwd)/whitelist:/hosts/whitelist" \
     stevenblack-hosts updateHostsFile.py \
-    --auto --replace --extensions gambling porn
+    --auto --replace --extensions gambling porn fakenews social
 
     #stevenblack-hosts
     #ghcr.io/stevenblack/hosts:latest updateHostsFile.py \
+
+    git add .
+    #git commit -am "$()"
+    #git push
