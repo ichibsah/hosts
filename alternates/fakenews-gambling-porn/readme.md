@@ -30,7 +30,7 @@ files are provided.
 
 ![Aggregator](https://raw.githubusercontent.com/StevenBlack/hosts/master/aggregator.png)
 
-- Last updated: **September 13 2022**.
+- Last updated: **September 14 2022**.
 - Here's the
   [raw hosts file with fakenews, gambling, porn extensions](https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts)
   containing 193,957 entries.
