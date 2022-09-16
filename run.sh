@@ -1,3 +1,7 @@
+git add .
+git commit -am "$(date)"
+git push
+
 #docker build --no-cache -t stevenblack-hosts .
 
 #docker run --rm -it stevenblack-hosts updateHostsFile.py
@@ -20,7 +24,3 @@ docker run \
 
     #stevenblack-hosts
     #ghcr.io/stevenblack/hosts:latest updateHostsFile.py \
-
-    git add .
-    git commit -am "$(date)"
-    git push
