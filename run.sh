@@ -15,8 +15,8 @@ docker run \
     -v "$(pwd)/hosts:/etc/hosts" \
     -v "$(pwd)/whitelist:/hosts/whitelist" \
     stevenblack-hosts updateHostsFile.py \
-    --auto --replace --extensions others
-    #--auto --replace --extensions gambling porn fakenews social
+    --auto --replace --extensions gambling porn fakenews social others
+    #--auto --replace --extensions others
 
     #stevenblack-hosts
     #ghcr.io/stevenblack/hosts:latest updateHostsFile.py \
