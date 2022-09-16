@@ -1,57 +1,10 @@
-From: <Saved by Blink>
-Snapshot-Content-Location: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts;showintro=0
-Subject: Blocklist of hostnames and domains for blocking ads, trackers and others (format: hosts -- in hosts file format)
-Date: Thu, 15 Sep 2022 13:50:22 -0000
-MIME-Version: 1.0
-Content-Type: multipart/related;
-	type="text/html";
-	boundary="----MultipartBoundary--zayEDgKvTqegHM4jIPcrkl04fcaf5jlwaAcQ264qId----"
-
-
-------MultipartBoundary--zayEDgKvTqegHM4jIPcrkl04fcaf5jlwaAcQ264qId----
-Content-Type: text/html
-Content-ID: <frame-DAC8DE01831372E1DCB42BB0636E5841@mhtml.blink>
-Content-Transfer-Encoding: quoted-printable
-Content-Location: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts;showintro=0
-
-<html class=3D" plizfnqb idc0_342"><head><meta http-equiv=3D"Content-Type" =
-content=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"tex=
-t/css" href=3D"cid:css-bc67e23c-bc7b-45d1-a133-ecd06993cde1@mhtml.blink" />
-<meta name=3D"author" value=3D"Peter Lowe; pgl@yoyo.org">
-<meta name=3D"description" value=3D"Blocklist of hostnames and domains for =
-blocking ads, trackers and others (format: hosts -- in hosts file format)">
-<meta name=3D"keywords" value=3D"ad blocking, blocking ads, ad servers, tra=
-ckers, ads, banners, hosts file, privacy">
-
-<link rel=3D"alternate" type=3D"application/rss+xml" title=3D"Blocklist of =
-hostnames and domains for blocking ads, trackers and others (format: hosts =
--- in hosts file format) (RSS - last 50 added)" href=3D"https://pgl.yoyo.or=
-g/adservers/rss/1.0/adservers.rss">
-
-<title>
-Blocklist of hostnames and domains for blocking ads, trackers and others (f=
-ormat: hosts -- in hosts file format)</title>
-
-<link rel=3D"stylesheet" href=3D"https://pgl.yoyo.org/css/pgl.css" type=3D"=
-text/css"></head>
-
-<body>
-
-
-
-<p></p><pre># Blocklist for use with hosts files to block ads, trackers, an=
-d other nasty things
-#
 # For more information about this list, see: https://pgl.yoyo.org/adservers=
-/
 # ----
 # last updated:   Sun, 11 Sep 2022 10:18:00 GMT
 # entries:        3674
 # format:         hosts (hosts -- in hosts file format)
-# credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https=
-://twitter.com/pgl
-# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=
-=3Dhosts;showintro=3D0
+# credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
+# this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=3Dhosts;showintro=3D0
 # Patreon:        https://patreon.com/blocklist
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
