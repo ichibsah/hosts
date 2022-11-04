@@ -24,3 +24,7 @@ docker run \
 
     #stevenblack-hosts
     #ghcr.io/stevenblack/hosts:latest updateHostsFile.py \
+
+git add .
+git commit -am "$(date)"
+git push
