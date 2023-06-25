@@ -14,13 +14,13 @@ sources can be found in the `hosts/data/` directory.
 [![license](https://img.shields.io/github/license/StevenBlack/hosts.svg)](https://github.com/StevenBlack/hosts/blob/master/license.txt)
 [![repo size](https://img.shields.io/github/repo-size/StevenBlack/hosts.svg)](https://github.com/StevenBlack/hosts)
 [![contributors](https://img.shields.io/github/contributors/StevenBlack/hosts.svg)](https://github.com/StevenBlack/hosts/graphs/contributors)
-[![Build Status](https://img.shields.io/github/workflow/status/StevenBlack/hosts/CI/master)](https://github.com/StevenBlack/hosts/actions?query=workflow%3ACI+branch%3Amaster)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/StevenBlack/hosts/ci.yml?branch=master)](https://github.com/StevenBlack/hosts/actions/workflows/ci.yml?query=branch%3Amaster)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
 [![commits since last release](https://img.shields.io/github/commits-since/StevenBlack/hosts/latest.svg)](https://github.com/StevenBlack/hosts/commits/master)
 [![last commit](https://img.shields.io/github/last-commit/StevenBlack/hosts.svg)](https://github.com/StevenBlack/hosts/commits/master)
 [![commit activity](https://img.shields.io/github/commit-activity/y/StevenBlack/hosts.svg)](https://github.com/StevenBlack/hosts/commits/master)
 
-# Unified hosts file @EXTENSIONS_HEADER@
+# @EXTENSIONS_HEADER@
 
 This repository consolidates several reputable `hosts` files, and merges them
 into a unified hosts file with duplicates removed. A variety of tailored hosts
@@ -40,8 +40,8 @@ files are provided.
 ## List of all hosts file variants
 
 This repository offers
-[15 different host file variants](https://github.com/StevenBlack/hosts/tree/master/alternates),
-in addition to the base variant.
+[31 different host file variants](https://github.com/StevenBlack/hosts/tree/master/alternates),
+in addition to the base variant, with and without the unified hosts included.
 
 The **Non GitHub mirror** is the link to use for some hosts file managers like
 [Hostsman for Windows](https://www.abelhadigital.com/hostsman/) that don't work
@@ -150,6 +150,10 @@ pip3 install --user -r requirements.txt
 at the user level. More information about it can be found on pip
 [documentation](https://pip.pypa.io/en/stable/reference/pip_install/?highlight=--user#cmdoption-user).
 
+### Option 4: Generate it in Google Colab
+
+Spin up a free remote [Google Colab](https://colab.research.google.com/drive/1tYWXpU2iuPDqN_o03JW9ml3ExO80eBLq?usp=sharing) environment.
+
 ### Common steps regardless of your development environment
 
 To **run unit tests**, in the top-level directory, run:
@@ -212,6 +216,9 @@ for configuring proximate DNS services on the local network.
 readmeData.json file used for generating readme.md files. This is useful if you
 are generating host files with additional whitelists or blacklists and want to
 keep your local checkout of this repo unmodified.
+
+`--nounifiedhosts`: `false` (default) or `true`, do not include the unified hosts
+file in the final hosts file. Usually used together with `--extensions`.
 
 `--compress`, or `-c`: `false` (default) or `true`, _Compress_ the hosts file
 ignoring non-necessary lines (empty lines and comments) and putting multiple
@@ -500,7 +507,8 @@ Open a Terminal and run with root privileges:
 
 ### macOS
 
-Open a Terminal and run:
+As described in [this article](https://osxdaily.com/2022/11/21/how-clear-dns-cache-macos-ventura-monterey/),
+open a Terminal and run:
 
 ```sh
 sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder
@@ -607,7 +615,7 @@ devices under a variety of operating systems.
   provides a tool to build block lists from local and remote lists in common
   formats.
 - [Control D](https://controld.com/free-dns)
-  offers a public anycast network hosted mirror of the Unified (Adware + Malware) blocklist: 
+  offers a public anycast network hosted mirror of the Unified (Adware + Malware) blocklist:
   - Legacy DNS: `76.76.2.35`, `76.76.10.35`, `2606:1a40::35`, `2606:1a40:1::35`
   - DNS-over-HTTPS/TLS/DOQ: `https://freedns.controld.com/x-stevenblack`, `x-stevenblack.freedns.controld.com`
 
