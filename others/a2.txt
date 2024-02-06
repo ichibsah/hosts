@@ -1,0 +1,15 @@
+--2024-02-06 13:35:10--  https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 2606:50c0:8000::154, 2606:50c0:8002::154, 2606:50c0:8003::154, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8000::154|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 243454 (238K) [text/plain]
+Saving to: ‘hosts.txt’
+
+     0K .......... .......... .......... .......... .......... 21% 1.75M 0s
+    50K .......... .......... .......... .......... .......... 42% 2.73M 0s
+   100K .......... .......... .......... .......... .......... 63% 3.60M 0s
+   150K .......... .......... .......... .......... .......... 84% 3.16M 0s
+   200K .......... .......... .......... .......              100% 8.50M=0.08s
+
+2024-02-06 13:35:10 (2.93 MB/s) - ‘hosts.txt’ saved [243454/243454]
+

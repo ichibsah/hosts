@@ -1,12 +1,12 @@
---2024-02-06 13:33:17--  https://raw.githubusercontent.com/StevenBlack/hosts/master/data/StevenBlack/hosts
+--2024-02-06 13:35:10--  https://raw.githubusercontent.com/StevenBlack/hosts/master/data/StevenBlack/hosts
 Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 2606:50c0:8002::154, 2606:50c0:8003::154, 2606:50c0:8001::154, ...
 Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8002::154|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 82477 (81K) [text/plain]
-Saving to: ‘hosts.1’
+Saving to: ‘hosts.2’
 
-     0K .......... .......... .......... .......... .......... 62% 3.37M 0s
-    50K .......... .......... ..........                      100% 14.6M=0.02s
+     0K .......... .......... .......... .......... .......... 62% 2.98M 0s
+    50K .......... .......... ..........                      100% 10.0M=0.02s
 
-2024-02-06 13:33:17 (4.76 MB/s) - ‘hosts.1’ saved [82477/82477]
+2024-02-06 13:35:10 (4.06 MB/s) - ‘hosts.2’ saved [82477/82477]
 
