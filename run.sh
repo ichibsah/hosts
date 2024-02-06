@@ -14,6 +14,14 @@ docker build --no-cache -t stevenblack-hosts .
 #     ghcr.io/stevenblack/hosts:latest updateHostsFile.py \
 #     --auto --replace --extensions gambling porn
 
+wget https://raw.githubusercontent.com/StevenBlack/hosts/master/data/StevenBlack/hosts -o ./others/a1.txt
+wget https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt -o ./others/a2.txt
+#wget  -o ./others/a1.txt
+#wget  -o ./others/a1.txt
+#wget  -o ./others/a1.txt
+#wget  -o ./others/a1.txt
+#wget  -o ./others/a1.txt
+
 docker run \
     --rm -it \
     -v "$(pwd)/hosts:/etc/hosts" \
